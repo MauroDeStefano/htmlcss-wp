@@ -23,10 +23,10 @@ header, main, footer {
 }
 
 .darker {
+  height: 100%;
   background-size: cover;
   background-color: rgba(0, 0, 0, .25);
   border-radius: 10px;
-  color: white;
 }
 
 /*********** /GLOBAL ************/
@@ -37,7 +37,6 @@ header, main, footer {
 }
 
 .banner {
-  background-color: #E47BE4;
   /* height: 130px; */
   margin-bottom: 30px;
 }
@@ -63,7 +62,7 @@ header, main, footer {
 .list>li>button {
   border: none;
   background: none;
-  color: #EBEBEB;
+  color: #AAAAAA;
 }
 
 .list>li>button:hover, .list>li>button:visited {
@@ -94,20 +93,15 @@ header, main, footer {
 
 .banner-main, .credits{
   margin-bottom: 20px;
-
 }
 
 .container-main{
-  height: 600px;
-  background-color: #0186FD ;
   padding-bottom: 15px;
   margin-bottom: 10px;
-
 }
 
 .banner-main{
   height: 75px;
-  background-color: #ABCFE7;
 }
 
 .banner-main > h1{
@@ -123,11 +117,23 @@ header, main, footer {
   height: 100%;
 }
 
+.intro-square{
+  height: 200px;
+  border-radius: 15px; 
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+
 .pannel{
-  height: 81%;
   float: left;
-  min-width: 20%;
-  background-color: #ABCFE7;
+  width: 20%;
+
+}
+
+.left.pannel > .intro-square{
+  background-image: url("../img/img-1.jpg");
 }
 
 .mid.pannel{
@@ -135,11 +141,35 @@ header, main, footer {
   margin: 0 2%;
 }
 
+.mid.pannel > .intro-square{
+  background-image: url("../img/banner-2.jpg");
+  background-position: center;
+}
+
+
+.right.pannel > .intro-square{
+  background-image: url("../img/img-3.jpg");
+}
+
+.main-text > h3{
+  margin: 10px 0;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.main-text > p{
+  color:#919191;
+}
 
 /************** /MAIN ***************/
 /************** FOOTER ***************/
 
 .credits{
-  height: 50px;
-  background-color: #8801FE;
+  height: 30px;
+  text-align: center;
+}
+
+.credits > span{
+  color: red;
 }
