@@ -26,8 +26,15 @@ header, main, footer{
 .banner{
   background-color: #E47BE4;
   height: 130px;
-  margin-top: 15px;
 }
+
+.image{
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+  border-right: 1px solid #EEEEEE ;
+}
+
 
 .jumbotron{
   height: 450px;
