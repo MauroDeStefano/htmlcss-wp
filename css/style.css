@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+body{
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+/*********** /GLOBAL ************/
+/*********** HEADER *************/
+
+.banner, .jumbotron{
+  margin-bottom: 25px;
+}
+
+.banner{
+  background-color: #E47BE4;
+  height: 130px;
+  
+}
+
+.jumbotron{
+  height: 450px;
+  background-color: #E1D67A ;
+}
+
+/************* /HEADER *************/
+/*************** MAIN **************/
+
+.banner-main, .credits{
+  margin-bottom: 20px;
+}
+
+.container-main{
+  height: 600px;
+  background-color: #0186FD ;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+
+}
+
+.banner-main{
+  height: 75px;
+  background-color: #ABCFE7;
+}
+
+.mid.pannel{
+  width: 56%;
+  margin: 0 2%;
+}
+
+.pannel{
+  float: left;
+  min-height: 81%;
+  min-width: 20%;
+  background-color: #ABCFE7;
+}
+
+/************** /MAIN ***************/
+/************** FOOTER ***************/
+
+.credits{
+  height: 50px;
+  background-color: #8801FE;
+}
