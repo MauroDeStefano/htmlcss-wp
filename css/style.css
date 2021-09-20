@@ -169,6 +169,8 @@ header, main, footer {
   text-align: center;
 }
 
-.credits > span{
+.credits::after{
+  content: "\2764";
   color: red;
+  padding-left: 5px;
 }
