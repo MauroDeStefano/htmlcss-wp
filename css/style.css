@@ -58,14 +58,15 @@ header, main, footer {
   margin-right: 15px;
   padding: 20px 0;
 }
-
-.list>li>button {
+                         
+.list>li>a {
+  text-decoration: none;
   border: none;
   background: none;
   color: #AAAAAA;
 }
 
-.list>li>button:hover, .list>li>button:visited {
+.list>li>a:hover{
   color: darkred;
 }
 
