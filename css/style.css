@@ -26,7 +26,6 @@ header, main, footer {
   height: 100%;
   background-size: cover;
   background-color: rgba(0, 0, 0, .25);
-  border-radius: 10px;
 }
 
 /*********** /GLOBAL ************/
@@ -43,7 +42,7 @@ header, main, footer {
 
 .nav > .image {
   display: inline-block;
-  width: 15%;
+  width: 150px;
   padding: 10px;
   border-right: 1px solid #EEEEEE ;
 }
@@ -76,6 +75,7 @@ header, main, footer {
   background-image: url("../img/banner.jpg");
   background-position: center;
   width: 100%;
+  overflow: hidden;
   /* height: 450px; */
   background-size: cover;
   border-radius: 10px;
@@ -105,10 +105,6 @@ header, main, footer {
   height: 75px;
 }
 
-.banner-main > h1{
-  font-family: 'Montserrat', sans-serif;
-}
-
 .banner-main > p{
   color:#919191;
 }
@@ -124,6 +120,7 @@ header, main, footer {
   background-position: center;
   background-size: cover;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 
